@@ -1,8 +1,5 @@
 console.log("Top of script01.js");
 
-AOS.init();
-
-
 let pageTitleElement;
 let outputGridElement;
 let projectDisplayElement;
@@ -338,6 +335,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
 });
 
+AOS.init();
 
 function createProjectPreview(incomingJSON){
 
@@ -349,6 +347,7 @@ function createProjectPreview(incomingJSON){
 	let newPreviewElement = document.createElement("DIV");
 	newPreviewLink.appendChild(newPreviewElement);
 	newPreviewElement.classList.add("content");
+	newPreviewLink.setAttribute("data-aos", "fade up");
 
 	let newPreviewTitle = document.createElement("P");
 	newPreviewTitle.classList.add("previewTitle");
