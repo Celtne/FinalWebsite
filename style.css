@@ -1,0 +1,224 @@
+* {
+	box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Cyberpunk;
+    src: url("Cyberpunk.ttf");
+}
+
+button {
+	border: 5px solid yellow;
+	border-radius: 5px;
+	background-color: black;
+}
+
+a,a:visited {
+	text-decoration: none;
+}
+
+body {
+	background-color: black;
+	text-align: center;
+	font-family: 'Cyberpunk';
+}
+
+
+img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+
+h1 {
+	color: yellow;
+	font-size: 150px;
+	text-shadow: 4px 4px 1px #41ead4;
+	padding-bottom: 10px;
+
+}
+
+h1.customfont{
+	font-family: "Cyberpunk";
+}
+
+h2 {
+	color: yellow;
+	font-size: 50px;
+	text-shadow: 3px 3px 1px #41ead4;
+
+}
+
+p {
+	font-family: "Play"; 
+  	font-style: normal;
+  	color: whitesmoke;
+}
+
+.navbar {
+	display: flex;
+	flex-wrap: wrap;
+	color: #ff43bc;
+	font-size: 15pt;
+	line-height: 0.5pt;
+	font-family: 'Cyberpunk';
+}
+
+#nav {
+	color: black;
+}
+
+#pageTitle {
+	margin-bottom: 100px;
+}
+
+
+.wrapper{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.price {
+	font-size: 30px;
+	width: 20vw;
+	padding-left: 200px;
+	display: flex;
+}
+
+.shop {
+	font-size: 22px;
+	color: black;
+	width: 15vw;
+	height: 5vw;
+	margin-left: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: yellow;
+	border-radius: 10px;
+}
+
+.shop:hover {
+	background-color: whitesmoke;
+}
+
+.info {
+	padding-top: 8vh;
+	padding-bottom: 10vw;
+}
+
+.content {
+/*	box-shadow: 10px 0 10px 10px yellow;*/
+	border: 10px solid yellow;
+	border-radius: 5px;
+	width: 240px;
+	height: 330px;
+	margin: 10px;
+}
+
+.projectHeroImage {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
+
+#nyc {
+	width: 50vw;
+	height: 40vh;
+	object-fit: cover;
+}
+
+#outputGrid {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 20px;
+
+}
+
+.store {
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: auto;
+	padding-top: 200px;
+	padding-bottom: 0px;
+
+	
+}
+.open {
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	width: 50vw;
+	padding: 0px;
+}
+
+.title {
+	font-size: 20px;
+}
+
+.dropdown4 {
+	width: 200px; 
+  	border: none;
+  	outline: none;
+  	padding: 14px 16px;
+  	background-color: black;
+}
+
+.dropdown-content4 {
+  	display: none;
+  	position: absolute;
+
+  	background-color: rgba(0,0,0);
+    z-index: 1;
+}
+
+.button:hover {
+	background-color: #00ffffff;
+	color: black;
+}
+
+.dropdown4:hover .dropdown-content4 {
+  	display: flex;
+  	flex-direction: column;
+} 
+
+.dropdown-content4 a {
+  	float: none;
+  	color: black;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	display: flex;
+  	flex-direction: column;
+  	text-align: center;
+  	color: #ddd;
+}
+
+#about {
+	margin: auto;
+	padding: auto;
+	width: 700px;
+	font-size: 15pt;
+	line-height: 1.5;
+}
+
+.contact {
+	margin-bottom: 100px;
+	padding-top: 200px;
+}
+
+#eye{
+	width: 100%;
+}
+
+#eye2{
+	width: 100%;
+}
+
+#eye3{
+	width: 100%;
+}
